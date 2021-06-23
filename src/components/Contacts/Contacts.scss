@@ -1,0 +1,26 @@
+.contacts-container {
+    background: linear-gradient(to bottom, rgb(255, 223, 104) 0%, rgb(255, 190, 109) 100%);
+}
+
+.custom-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.email-icon {
+    @extend .custom-icon;
+    background-image: url('../../assets/images/email-icon.svg');
+}
+
+.linkedin-icon {
+    @extend .custom-icon;
+    background-image: url('../../assets/images/linkedin-icon.svg');
+}
+
+.github-icon {
+    @extend .custom-icon;
+    background-image: url('../../assets/images/github-icon.svg');
+}
